@@ -1,0 +1,19 @@
+require 'cucumber/rake/task'
+#
+# --- Cuke tasks
+#
+namespace :test do
+	Dir.chdir("./test")
+	Cucumber::Rake::Task.new(:run) do |task|  
+		profile = ENV['PROFILE'] || 'default'
+		task.cucumber_opts = "--tags @vt14 --format html -o vt14_test_report.html"
+	end
+	Cucumber::Rake::Task.new(:run_search) do |task|  
+		profile = ENV['PROFILE'] || 'default'
+		task.cucumber_opts = "--tags @search --format html -o vt14_search_report.html"
+	end
+	Cucumber::Rake::Task.new(:create_user) do |task|  
+		profile = ENV['PROFILE'] || 'default'
+		task.cucumber_opts = "--tags @create_user"
+	end	
+end

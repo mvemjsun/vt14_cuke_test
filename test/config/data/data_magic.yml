@@ -1,0 +1,22 @@
+VT14Page:
+ vts_reason: ~randomize ['VTS Install', 'VTS Deinstall', 'VTS Movement']
+ vts_number: ~randomize['V100203', '78YLV','V123FD']
+ vts_trading_name: Faker::Company.name
+ vts_address1: ~randomize(1..999)
+ vts_address2: ~words(number=2)
+ vts_address3: ~state
+ vts_postcode: ~zip_code
+ vts_telephone_number: ~phone_number
+ vts_mobile_number: ~cell_number
+ vts_site_contact: ~full_name
+ vts_cli_telephone: ~phone_number
+ vts_complies: ~randomize['Y']
+ vts_alternate_address1: ~randomize(1..999)
+ vts_alternate_address2: ~words(number=2)
+ vts_alternate_address3: ~state
+ vts_alternate_postcode: ~zip_code
+ ao_administrator: ~full_name
+ ao_motcomp_user_id: ~randomize(['NORM0001', 'ADMI0001','TONK0001','HART0001'])
+ ao_select_name: ~randomize['01SL2 -- VOSA Perth', '07SL1 -- VOSA Swynnerton','10SL5 -- VOSA Newport']
+ ao_telephone_number: ~phone_number
+ ao_email: ~email_address

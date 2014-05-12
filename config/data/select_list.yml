@@ -1,0 +1,403 @@
+ao_locations:
+ - VOSA_Livingston                                                                                 :
+    ao_name_print: VOSA Livingston
+    ao_number: 01                                                                                              
+    ao_address1: GRANGE ROAD                                                                                     
+    ao_address4: LIVINGSTON                                                                                      
+    ao_postcode: EH54 5DE                                                                                        
+ - VOSA_Aberdeen                                                                                   :
+    ao_name_print: VOSA Aberdeen
+    ao_number: 01SL1                                                                                           
+    ao_address1: CLOVERHILL ROAD                                                                                 
+    ao_address4: ABERDEEN                                                                                        
+    ao_postcode: AB23 8FE                                                                                        
+ - VOSA_Perth                                                                                      :
+    ao_name_print: VOSA Perth
+    ao_number: 01SL2                                                                                           
+    ao_address1: ARRAN ROAD                                                                                      
+    ao_address4: PERTH                                                                                           
+    ao_postcode: PH1 3DZ                                                                                         
+ - VOSA_Bishopbriggs                                                                               :
+    ao_name_print: VOSA Bishopbriggs
+    ao_number: 02                                                                                              
+    ao_address1: CROSSHILL ROAD                                                                                  
+    ao_address4: GLASGOW                                                                                         
+    ao_postcode: G64 2QA                                                                                         
+ - VOSA_Kilmarnock                                                                                 :
+    ao_name_print: VOSA Kilmarnock
+    ao_number: 02SL1                                                                                           
+    ao_address1: 216 WESTERN ROAD                                                                                
+    ao_address4: AYRSHIRE                                                                                        
+    ao_postcode: KA2 1LP                                                                                         
+ - VOSA_Carlisle                                                                                   :
+    ao_name_print: VOSA Carlisle
+    ao_number: 03                                                                                              
+    ao_address1: BRUNTHILL ROAD                                                                                  
+    ao_address4: CARLISLE                                                                                        
+    ao_postcode: CA3 0EH                                                                                         
+ - VOSA_Leeds                                                                                      :
+    ao_name_print: VOSA Leeds
+    ao_number: 04                                                                                              
+    ao_address1: PATRICK GREEN                                                                                   
+    ao_address4: LEEDS                                                                                           
+    ao_postcode: LS26 8HE                                                                                        
+ - VOSA_Beverley                                                                                   :
+    ao_name_print: VOSA Beverley 1
+    ao_number: 04SL1                                                                                           
+    ao_address1: OLDBECK ROAD                                                                                    
+    ao_address4: BEVERLEY                                                                                        
+    ao_postcode: HU17 0JG                                                                                        
+ - VOSA_Chadderton                                                                                 :
+    ao_name_print: VOSA Chadderton
+    ao_number: 05                                                                                              
+    ao_address1: BROADWAY BUSINESS PARK                                                                          
+    ao_address4: OLDHAM                                                                                          
+    ao_postcode: OL9 9XA                                                                                         
+ - VOSA_Liverpool                                                                                  :
+    ao_name_print: VOSA Liverpool
+    ao_number: 06                                                                                              
+    ao_address1: STOPGATE LANE                                                                                   
+    ao_address4: LIVERPOOL                                                                                       
+    ao_postcode: L33 4YA                                                                                         
+ - VOSA_Swynnerton                                                                                 :
+    ao_name_print: VOSA Swynnerton
+    ao_number: 07SL1                                                                                           
+    ao_address1: ENFORCEMENT                                                                                     
+    ao_address4: STONE                                                                                           
+    ao_postcode: ST15 0QP                                                                                        
+ - VOSA_Wolverhampton                                                                              :
+    ao_name_print: VOSA Wolverhampton
+    ao_number: 07                                                                                              
+    ao_address1: CATS AND KITTENS LANE                                                                           
+    ao_address4: WOLVERHAMPTON                                                                                   
+    ao_postcode: WV10 7JD                                                                                        
+ - VOSA_Kidderminster                                                                              :
+    ao_name_print: VOSA Kidderminster
+    ao_number: 08                                                                                              
+    ao_address1: ENFORCEMENT                                                                                     
+    ao_address4: KIDDERMINSTER                                                                                   
+    ao_postcode: DY11 7RD                                                                                        
+ - VOSA_Kidderminster_1                                                                            :
+    ao_name_print: VOSA Kidderminster 1
+    ao_number: 08SL1                                                                                           
+    ao_address1: ENFORCEMENT                                                                                     
+    ao_address4: KIDDERMINSTER                                                                                   
+    ao_postcode: DY11 7RD                                                                                        
+ - VOSA_Peterborough                                                                               :
+    ao_name_print: VOSA Peterborough
+    ao_number: 09                                                                                              
+    ao_address1: SAVILLE ROAD                                                                                    
+    ao_address4: PETERBOROUGH                                                                                    
+    ao_postcode: PE3 6TL                                                                                         
+ - VOSA_Norwich                                                                                    :
+    ao_name_print: VOSA Norwich
+    ao_number: 09SL1                                                                                           
+    ao_address1: JUPITER ROAD                                                                                    
+    ao_address4: NORWICH                                                                                         
+    ao_postcode: NR6 6SS                                                                                         
+ - VOSA_Crimplesham                                                                                :
+    ao_name_print: VOSA Crimplesham
+    ao_number: 09SL2                                                                                           
+    ao_address1: BEXWELL AIRFIELD                                                                                
+    ao_address4: KINGS LYNN                                                                                      
+    ao_postcode: PE33 9DU                                                                                        
+ - VOSA_Bristol                                                                                    :
+    ao_name_print: VOSA Bristol
+    ao_number: 10                                                                                              
+    ao_address1: MEREBANK ROAD                                                                                   
+    ao_address4: BRISTOL                                                                                         
+    ao_postcode: BS11 8AQ                                                                                        
+ - VOSA_Bristol                                                                                    :
+    ao_name_print: VOSA Bristol
+    ao_number: 10SL1                                                                                           
+    ao_address1: MEREBANK ROAD                                                                                   
+    ao_address4: BRISTOL                                                                                         
+    ao_postcode: BS11 8AQ                                                                                        
+ - VOSA_Calne                                                                                      :
+    ao_name_print: VOSA Calne
+    ao_number: 10SL2                                                                                           
+    ao_address1: PORTE MARSH ROAD                                                                                
+    ao_address4: CALNE                                                                                           
+    ao_postcode: SN11 9BW                                                                                        
+ - VOSA_Exeter                                                                                     :
+    ao_name_print: VOSA Exeter
+    ao_number: 11                                                                                              
+    ao_address1: GRACE ROAD WEST                                                                                 
+    ao_address4: EXETER                                                                                          
+    ao_postcode: EX2 8PU                                                                                         
+ - VOSA_Poole                                                                                      :
+    ao_name_print: VOSA Poole
+    ao_number: 11SL1                                                                                           
+    ao_address1: 4 20 HARWELL ROAD                                                                               
+    ao_address4: POOLE                                                                                           
+    ao_postcode: BH17 0SA                                                                                        
+ - VOSA_Plymouth                                                                                   :
+    ao_name_print: VOSA Plymouth
+    ao_number: 11SL2                                                                                           
+    ao_address1: AGATON FORT BUDSHEAD ROAD                                                                       
+    ao_address4: PLYMOUTH                                                                                        
+    ao_postcode: PL5 2QY                                                                                         
+ - VOSA_Southampton                                                                                :
+    ao_name_print: VOSA Southampton
+    ao_number: 12                                                                                              
+    ao_address1: HILLSON ROAD                                                                                    
+    ao_address4: SOUTHAMPTON                                                                                     
+    ao_postcode: SO30 2DY                                                                                        
+ - VOSA_Newbury                                                                                    :
+    ao_name_print: VOSA Newbury
+    ao_number: 12SL1                                                                                           
+    ao_address1: HAMBRIDGE LANE                                                                                  
+    ao_address4: NEWBURY                                                                                         
+    ao_postcode: RG14 5TZ                                                                                        
+ - VOSA_Mitcham                                                                                    :
+    ao_name_print: VOSA Mitcham
+    ao_number: 13                                                                                              
+    ao_address1: REDHOUSE ROAD                                                                                   
+    ao_address4: CROYDON                                                                                         
+    ao_postcode: CR0 3AQ                                                                                         
+ - VOSA_Lancing                                                                                    :
+    ao_name_print: VOSA Lancing
+    ao_number: 13SL1                                                                                           
+    ao_address1: CHARTWELL ROAD                                                                                  
+    ao_address4: LANCING                                                                                         
+    ao_postcode: BN15 8TU                                                                                        
+ - VOSA_Guildford                                                                                  :
+    ao_name_print: VOSA Guilford
+    ao_number: 13SL2                                                                                           
+    ao_address1: MOORFIELD ROAD                                                                                  
+    ao_address4: GUILDFORD                                                                                       
+    ao_postcode: GU1 1SA                                                                                         
+ - VOSA_Gillingham                                                                                 :
+    ao_name_print: VOSA Gillingham
+    ao_number: 14                                                                                              
+    ao_address1: AMBLEY ROAD                                                                                     
+    ao_address4: GILLINGHAM                                                                                      
+    ao_postcode: ME8 0SJ                                                                                         
+ - VOSA_Hastings                                                                                   :
+    ao_name_print: VOSA Hastings
+    ao_number: 14SL1                                                                                           
+    ao_address1: IVY HOUSE LANE                                                                                  
+    ao_address4: HASTINGS                                                                                        
+    ao_postcode: TN35 4NN                                                                                        
+ - VOSA_Yeading                                                                                    :
+    ao_name_print: VOSA Yeading
+    ao_number: 15                                                                                              
+    ao_address1: CYGNET WAY                                                                                      
+    ao_address4: HAYES                                                                                           
+    ao_postcode: UB4 9BS                                                                                         
+ - VOSA_Edmonton                                                                                   :
+    ao_name_print: VOSA Edmonton
+    ao_number: 15SL1                                                                                           
+    ao_address1: TOWPATH ROAD                                                                                    
+    ao_address4: LONDON                                                                                          
+    ao_postcode: N18 3JR                                                                                         
+ - VOSA_Chelmsford                                                                                 :
+    ao_name_print: VOSA CHELMSFORD
+    ao_number: 16                                                                                              
+    ao_address1: HANBURY ROAD                                                                                    
+    ao_address4: CHELMSFORD                                                                                      
+    ao_postcode: CM1 3DR                                                                                         
+ - VOSA_Chelmsford                                                                                 :
+    ao_name_print: VOSA CHELMSFORD
+    ao_number: 16SL1                                                                                           
+    ao_address1: HANBURY ROAD                                                                                    
+    ao_address4: CHELMSFORD                                                                                      
+    ao_postcode: CM1 3DR                                                                                         
+ - VOSA_Norwich                                                                                    :
+    ao_name_print: VOSA Norwich
+    ao_number: 17                                                                                              
+    ao_address1: JUPITER ROAD                                                                                    
+    ao_address4: NORWICH                                                                                         
+    ao_postcode: NR6 6SS                                                                                         
+ - VOSA_Ipswich                                                                                    :
+    ao_name_print: VOSA IPSWICH
+    ao_number: 17SL1                                                                                           
+    ao_address1: HOLBROOK ROAD                                                                                   
+    ao_address4: IPSWICH                                                                                         
+    ao_postcode: IP3 0DF                                                                                         
+ - VOSA_Crimplesham                                                                                :
+    ao_name_print: VOSA Crimplesham
+    ao_number: 17SL2                                                                                           
+    ao_address1: BEXWELL AIRFIELD                                                                                
+    ao_address4: KINGS LYNN                                                                                      
+    ao_postcode: PE33 9DU                                                                                        
+ - VOSA_Bury_St_Edmunds                                                                            :
+    ao_name_print: VOSA Bury St Edmunds
+    ao_number: 17SL3                                                                                           
+    ao_address1: ST ANDREWS HOUSE                                                                                
+    ao_address4: BURY ST EDMONDS                                                                                 
+    ao_postcode: IP3 1TT                                                                                         
+ - VOSA_Leicester                                                                                  :
+    ao_name_print: VOSA Leicester
+    ao_number: 18                                                                                              
+    ao_address1: 40 CANNOCK STREET                                                                               
+    ao_address4: LEICESTER                                                                                       
+    ao_postcode: LE4 9HT                                                                                         
+ - VOSA_Northampton                                                                                :
+    ao_name_print: VOSA NORTHAMPTON
+    ao_number: 18SL1                                                                                           
+    ao_address1: CAVALRY HILL INDUSTRIAL ESTATE                                                                  
+    ao_address4: NORTHAMPTON                                                                                     
+    ao_postcode: NN7 4PP                                                                                         
+ - VOSA_Leighton_Buzzard                                                                           :
+    ao_name_print: VOSA Leighton Buzzard
+    ao_number: 18SL2                                                                                           
+    ao_address1: STANBRIDGE ROAD                                                                                 
+    ao_address4: LEIGHTON BUZZARD                                                                                
+    ao_postcode: LU7 4QG                                                                                         
+ - VOSA_Peterborough                                                                               :
+    ao_name_print: VOSA Peterborough
+    ao_number: 19                                                                                              
+    ao_address1: SAVILLE ROAD                                                                                    
+    ao_address4: PETERBOROUGH                                                                                    
+    ao_postcode: PE3 6TL                                                                                         
+ - VOSA_Sheffield                                                                                  :
+    ao_name_print: VOSA Sheffield
+    ao_number: 20                                                                                              
+    ao_address1: ORGREAVE WAY                                                                                    
+    ao_address4: SHEFFIELD                                                                                       
+    ao_postcode: S13 9LT                                                                                         
+ - VOSA_Nottingham                                                                                 :
+    ao_name_print: VOSA NOTTINGHAM
+    ao_number: 20SL1                                                                                           
+    ao_address1: MAIN ROAD                                                                                       
+    ao_address4: NOTTINGHAM                                                                                      
+    ao_postcode: NG16 1JF                                                                                        
+ - VOSA_Grimsby                                                                                    :
+    ao_name_print: VOSA GRIMSBY
+    ao_number: 21                                                                                              
+    ao_address1: ESTATE ROAD NO 1 SOUTH HUMBERSIDE INDUSTRIAL ESTA                                               
+    ao_address4: GRIMSBY                                                                                         
+    ao_postcode: DN31 2TB                                                                                        
+ - VOSA_Beverley                                                                                   :
+    ao_name_print: VOSA Beverley 1
+    ao_number: 21SL1                                                                                           
+    ao_address1: OLDBECK ROAD                                                                                    
+    ao_address4: BEVERLEY                                                                                        
+    ao_postcode: HU17 0JG                                                                                        
+ - VOSA_Leeds_Old_Area_22_Details                                                                :
+    ao_name_print: VOSA Leeds Old area 22
+    ao_number: 22                                                                                              
+    ao_address1: PATRICK GREEN                                                                                   
+    ao_address4: LEEDS                                                                                           
+    ao_postcode: LS26 8HE                                                                                        
+ - VOSA_Newcastle_Upon_Tyne_Old_Area_23                                                          :
+    ao_name_print: VOSA Newcastle Upon Tyne Old Area 23
+    ao_number: 23                                                                                              
+    ao_address1: SANDY LANE                                                                                      
+    ao_address4: NEWCASTLE UPON TYNE                                                                             
+    ao_postcode: NE3 5HB                                                                                         
+ - VOSA_Darlington_Old_Area_sub_location                                                         :
+    ao_name_print: VOSA Darlington Old Area sub location
+    ao_number: 23SL1                                                                                           
+    ao_address1: BANKS ROAD                                                                                      
+    ao_address4: DARLINGTON                                                                                      
+    ao_postcode: DL1 1YE                                                                                         
+ - VTS_Operations                                                                                   :
+    ao_name_print: VTS Operations
+    ao_number: 24                                                                                              
+    ao_address1: ELLIPSE                                                                                         
+    ao_address4: SWANSEA                                                                                         
+    ao_postcode: SA1 8AN                                                                                         
+ - MOT_Compliance_and_Computerisation                                                              :
+    ao_name_print: MOT Compliance and Computerisation
+    ao_number: 24SL1                                                                                           
+    ao_address1: BERKELEY HOUSE                                                                                  
+    ao_address4: BRISTOL                                                                                         
+    ao_postcode: BS5 0DA                                                                                         
+ - VOSA_Bredbury                                                                                   :
+    ao_name_print: VOSA Bredbury
+    ao_number: 05SL1                                                                                           
+    ao_address1: LINGARD LANE                                                                                    
+    ao_address4: STOCKPORT                                                                                       
+    ao_postcode: SK6 2QX                                                                                         
+ - VOSA_Derby                                                                                      :
+    ao_name_print: VOSA Derby
+    ao_number: 05SL2                                                                                           
+    ao_address1: RAYNESWAY                                                                                       
+    ao_address4: DERBY                                                                                           
+    ao_postcode: DE21 7AY                                                                                        
+ - REGIONAL_INVESTIGATIONS                                                                         :
+    ao_name_print: Regional Investigations
+    ao_number: 26                                                                                              
+    ao_address1: ROOM 104                                                                                        
+    ao_address4: BRISTOL                                                                                         
+    ao_postcode: BS5 0DA                                                                                         
+ - LLANRISANT_GVTS                                                                                :
+    ao_name_print: LLANRISANT GVTS
+    ao_number: 10SL3                                                                                           
+    ao_address1: SCHOOL ROAD                                                                                     
+    ao_address4: PONTYCLUN                                                                                       
+    ao_postcode: CF72 8YR                                                                                        
+ - VOSA_Wrexham                                                                                    :
+    ao_name_print: VOSA WREXHAM
+    ao_number: 06SL1                                                                                           
+    ao_address1: LLAY ROAD                                                                                       
+    ao_address4: WREXHAM                                                                                         
+    ao_postcode: LL12 0TL                                                                                        
+ - VOSA_Kidderminster_2                                                                            :
+    ao_name_print: VOSA Kidderminster 2
+    ao_number: 08SL2                                                                                           
+    ao_address1: ENFORCEMENT                                                                                     
+    ao_address4: KIDDERMINSTER                                                                                   
+    ao_postcode: DY11 7RD                                                                                        
+ - VOSA_SHEFFIELD                                                                                  :
+    ao_name_print: VOSA Sheffield
+    ao_number: 05SL3                                                                                           
+    ao_address1: ORGREAVE WAY                                                                                    
+    ao_address4: SHEFFIELD                                                                                       
+    ao_postcode: S13 9LT                                                                                         
+ - New_sub_location                                                                                :
+    ao_name_print: New Sub location
+    ao_number: 05SL4                                                                                           
+    ao_address1: TO BE STATED                                                                                    
+    ao_address4: TO BE STATED                                                                                    
+    ao_postcode: S13 9LT                                                                                         
+ - VOSA_Preston                                                                                    :
+    ao_name_print: VOSA PRESTON
+    ao_number: 03SL1                                                                                           
+    ao_address1: FRECKLETON ROAD                                                                                 
+    ao_address4: PRESTON                                                                                         
+    ao_postcode: PR4 2RP                                                                                         
+ - VOSA_Darlington                                                                                 :
+    ao_name_print: VOSA Darlington
+    ao_number: 03SL2                                                                                           
+    ao_address1: BANKS ROAD                                                                                      
+    ao_address4: DARLINGTON                                                                                      
+    ao_postcode: DL1 1YE                                                                                         
+ - VOSA_Newcastle_Upon_Tyne                                                                        :
+    ao_name_print: VOSA Newcastle Upon Tyne
+    ao_number: 03SL3                                                                                           
+    ao_address1: SANDY LANE                                                                                      
+    ao_address4: NEWCASTLE UPON TYNE                                                                             
+    ao_postcode: NE3 5HB                                                                                         
+ - VOSA_Derby                                                                                      :
+    ao_name_print: VOSA Derby
+    ao_number: 07SL2                                                                                           
+    ao_address1: BELMORE WAY                                                                                     
+    ao_address4: DERBY                                                                                           
+    ao_postcode: DE21 7AY                                                                                        
+ - VOSA_AMMANFORD                                                                                  :
+    ao_name_print: VOSA AMMANFORD
+    ao_number: 10SL4                                                                                           
+    ao_address1: TIRYDAIL LANE                                                                                   
+    ao_address4: AMMANFORD                                                                                       
+    ao_postcode: SA18 3AR                                                                                        
+ - VOSA_NEWPORT                                                                                    :
+    ao_name_print: VOSA Newport
+    ao_number: 10SL5                                                                                           
+    ao_address1: SCHOOL ROAD                                                                                     
+    ao_address4: PONTYCLUN                                                                                       
+    ao_postcode: CF72 8YR                                                                                        
+ - VOSA_Grimsby                                                                                    :
+    ao_name_print: VOSA GRIMSBY
+    ao_number: 04SL2                                                                                           
+    ao_address1: ESTATE ROAD NO 1                                                                                
+    ao_address4: GRIMSBY                                                                                         
+    ao_postcode: DN31 2TB                                                                                        
+ - VOSA_MITCHAM_AREA_15                                                                        :
+    ao_name_print: VOSA MITCHAM AREA 15
+    ao_number: 15SL2                                                                                           
+    ao_address1: REDHOUSE ROAD                                                                                   
+    ao_address4: CROYDON                                                                                         
+    ao_postcode: CR0 3AQ                                                                                         

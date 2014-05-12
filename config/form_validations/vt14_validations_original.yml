@@ -1,0 +1,207 @@
+vt14: 
+ - vts_reason:
+    length: 30
+    format: ".*"
+    required: "y"
+    message: "Please select a valid VTS reason."
+ - vts_cessation_date:
+    length: 10
+    format: \d{2}-\d{2}-\d{4}
+    message: "Please enter a valid cessation date in the format DD-MM-YYYY, Eg. 01-05-2014. Date should be in future."
+ - vts_number:
+    length: 10
+    format: "[a-zA-Z0-9]{1,10}"
+    required: "y"
+    message: "Please correct VTS number.VTS number can be upto 10 characters long. It can contain only alphabets and digits."
+ - vts_trading_name:
+    length: 50
+    format: "[a-zA-Z0-9]{1,20}"
+    required: "y"
+    message: "Please correct VTS trading name.Please enter a valid VTS trading name upto 50 characters long."    
+ - vts_address1:
+    length: 50
+    format: .*
+    required: "y"
+    message: "Please correct VTS address line 1. Please enter a valid Address line upto 50 characters long." 
+ - vts_address2:
+    length: 50
+    format: .* 
+    required: "y"
+    message: "Please enter a valid Address line upto 50 characters long."
+ - vts_address3:
+    length: 50
+    format: .* 
+    message: "Please enter a valid Address line upto 50 characters long."
+ - vts_postcode:
+    length: 8
+    format: ^([A-PR-UWYZ0-9][A-HK-Y0-9][AEHMNPRTVXY0-9]?[ABEHMNPRVWXY0-9]? {1,2}[0-9][ABD-HJLN-UW-Z]{2}|GIR 0AA)$
+    required: "y"
+    message: "Please correct VTS postcode. Include a space after the first part of the postcode."
+ - vts_alternate_address1:
+    length: 50
+    format: .*
+    message: "Please enter a valid Address line upto 50 characters long." 
+ - vts_alternate_address2:
+    length: 50
+    format: .* 
+    message: "Please enter a valid Address line upto 50 characters long."
+ - vts_alternate_address3:
+    length: 50
+    format: .* 
+    message: "Please enter a valid Address line upto 50 characters long."
+ - vts_alternate_postcode:
+    length: 8
+    format: ^([A-PR-UWYZ0-9][A-HK-Y0-9][AEHMNPRTVXY0-9]?[ABEHMNPRVWXY0-9]? {1,2}[0-9][ABD-HJLN-UW-Z]{2}|GIR 0AA)$
+    message: "Please correct the postcode. Include a space after the first part of the postcode."    
+ - vts_telephone_number:
+    length: 20
+    format: ^0[\d ]{1,20}
+    required: "y"
+    message: "Please correct VTS telephone number.Please provide a valid telephone number in the format [areacode number] including the space.Eg 01344 767675."
+ - vts_mobile_number:
+    length: 15
+    format: ^0[\d ]{1,14}
+    required: "y"
+    message: "Please correct VTS mobile number.Please provide a valid mobile number of 11 digits starting with 0."
+ - vts_site_contact:
+    length: 90
+    format: .* 
+    required: "y"
+    message: "Please correct VTS site contact.Please enter a valid Site contact name upto 90 characters long."
+ - vts_cli_telephone:
+    length: 20
+    format: ^0[\d ]{1,20}
+    message: "Please correct VTS CLI telephone. Please provide a valid VTS telephone number in the format [areacode number] including the space.Eg 01344 123456"
+ - vts_complies:
+    length: 1
+    format: .* 
+    message: "Dummy message."
+ - ao_administrator:
+    length: 90
+    format: .* 
+    required: "y"
+    message: "Please correct AO administrator name.Please enter a valid name upto 90 characters long."
+ - ao_motcomp_user_id:
+    length: 8
+    format: "[a-zA-Z]{4}[0-9]{4}" 
+    required: "y"
+    message: "Please correct AO administrator userid.Please enter the MOTCOMP user id of the MOT adminstrator."  
+ - ao_name:
+    length: 50
+    format: .* 
+    required: "y"
+    message: "Please select an AO name."
+ - ao_number:
+    length: 10
+    format: .* 
+    required: "y"
+    message: "AO number is not present.Please select an AO name."    
+ - ao_telephone_number:
+    length: 15
+    format: .*
+    required: "y"
+    message: "Please enter a valid AO telephone number upto 15 characters long."
+ - ao_email:
+    length: 50
+    format: ^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})$
+    required: "y"
+    message: "Please correct AO email id. Please enter a valid email address."
+
+reset_password:
+ - userid:
+    length: 8
+    format: ^[a-zA-Z]{4}\d\d\d\d
+    required: "y"
+    message: "Please enter a valid User ID."
+ - password:
+    length: 8
+    min_length: 7
+    format: .+
+    required: "y"
+    message: "Please enter a valid password. Password should be between 7 and 8 characters long."
+ - new_password:
+    length: 8
+    min_length: 7
+    format: .+
+    required: "y"
+    message: "Please enter a valid password. Password should be between 7 and 8 characters long."
+ - reset_code:
+    length: 6
+    min_length: 6
+    format: .+
+    required: "y"
+    message: "Please enter a valid reset code."
+
+register_user:
+ - userid:
+    length: 8
+    format: ^[a-zA-Z]{4}\d\d\d\d
+    required: "y"
+    message: "Please enter a valid User ID."
+ - user_full_name:
+    length: 90
+    format: ^[a-zA-Z]+
+    required: "y"
+    message: "Please enter a valid full name."
+ - user_email_address:
+    length: 50
+    format: ".*"
+    required: "y"
+    message: "Please enter a valid email address."
+ - password:
+    length: 8
+    min_length: 7
+    format: .+
+    required: "y"
+    message: "Please enter a valid password. Password should be between 7 and 8 characters long."
+ - password_confirmation:
+    length: 8
+    min_length: 7
+    format: .+
+    required: "y"
+    message: "Please enter a valid password. Password should be between 7 and 8 characters long."
+ - activation_code:
+    length: 6
+    min_length: 6
+    format: .+
+    required: "y"
+    message: "Please enter a valid activation code."
+
+change_password:
+ - userid:
+    length: 8
+    format: ^[a-zA-Z]{4}\d\d\d\d
+    required: "y"
+    message: "Please enter a valid User ID."
+ - old_password:
+    length: 8
+    min_length: 7
+    format: .+
+    required: "y"
+    message: "Please enter a valid password. Password should be between 7 and 8 characters long."
+ - new_password:
+    length: 8
+    min_length: 7
+    format: .+
+    required: "y"
+    message: "Please enter a valid password. Password should be between 7 and 8 characters long."
+ - confirm_new_password:
+    length: 8
+    min_length: 7
+    format: .+
+    required: "y"
+    message: "Please enter a valid password. Password should be between 7 and 8 characters long." 
+
+activation_code:
+ - userid:
+    length: 8
+    format: ^[a-zA-Z]{4}[0-9]{4}
+    required: "y"
+    message: "Please enter a valid User ID."
+
+view:
+ - reference:
+    length: 8
+    format: \d{1,8}
+    required: "y"
+    message: "Please enter a VT14 request reference." 
